@@ -1,0 +1,20 @@
+bt10:
+A = 1101 1001
+B = 1011 0101
+C = 1111 0101
+D = 1011 0111
+
+A AND B OR C XOR D
+
+1 AND 1 = 1 OR 1 = 1 XOR 1 = 0
+0 AND 0 = 0 OR 0 = 0 XOR 1 = 1
+0 AND 1 = 0 OR 1 = 1 XOR 1 = 0
+1 AND 0 = 0 OR 0 = 0 XOR 0 = 0
+
+1 AND 1 = 1 OR 1 = 1 XOR 1 = 0
+0 AND 1 = 0 OR 1 = 1 XOR 1 = 0
+1 AND 0 = 0 OR 1 = 1 XOR 0 = 1
+1 AND 1 = 1 OR 1 = 1 XOR 1 = 0
+
+A AND B OR C XOR D
+->0100 0010
